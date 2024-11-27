@@ -1,0 +1,20 @@
+.column {
+    float: left;
+    width: calc(50% - 10px);
+    margin: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.container {
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
