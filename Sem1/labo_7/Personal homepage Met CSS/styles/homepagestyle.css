@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav {
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Sectie styling */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+/* Lijsten */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabel styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+td {
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}

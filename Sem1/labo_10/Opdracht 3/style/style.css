@@ -1,0 +1,12 @@
+.donker{
+    background-color: #AAAAAA;
+}
+.licht{
+    background-color: #CCCCCC;
+}
+div{
+    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    background-clip: content-box;
+}

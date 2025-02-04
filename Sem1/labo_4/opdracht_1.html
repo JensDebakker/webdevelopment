@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../../index.html">Back</a> <br/>
+  </nav>
+  <h1>Opdracht 1</h1>
+</header>
+
+<h1>Wat is compressie?</h1>
+<p>Compressie is een techniek om de hoeveelheid data die nodig is om een bestand op te slaan te verminderen. Dit gebeurt door overbodige of minder belangrijke informatie te verwijderen, zodat het bestand kleiner wordt en gemakkelijker kan worden opgeslagen of verzonden.</p>
+
+<h2>Lossy compressie</h2>
+<p><strong>Lossy compressie</strong> verwijdert permanent een deel van de gegevens om de bestandsgrootte te verkleinen. Hierbij wordt informatie weggegooid die (volgens een algoritme) minder belangrijk is voor de algemene perceptie van de data, zoals subtiele kleurverschillen of details in een afbeelding. Dit type compressie leidt tot een verlies van kwaliteit dat meestal niet merkbaar is bij de eerste compressie, maar dat wel zichtbaar kan worden bij herhaaldelijk bewerken en opslaan.</p>
+<ul>
+    <li><strong>Voordeel:</strong> significant kleinere bestandsgroottes.</li>
+    <li><strong>Nadeel:</strong> verlies van gegevens en kwaliteit (soms zichtbaar als artefacten).</li>
+</ul>
+<p><strong>Voorbeeld:</strong> JPEG is een lossy formaat.</p>
+
+<h2>Lossless compressie</h2>
+<p><strong>Lossless compressie</strong> houdt alle originele gegevens intact. De bestandsgrootte wordt verkleind door patronen en herhalingen in de data op te sporen en efficiënter op te slaan, zonder enige informatie weg te gooien. Als je een bestand dat lossless is gecomprimeerd deconprimeert, krijg je het oorspronkelijke bestand precies terug zonder kwaliteitsverlies.</p>
+<ul>
+    <li><strong>Voordeel:</strong> geen kwaliteitsverlies.</li>
+    <li><strong>Nadeel:</strong> de bestandsgrootte wordt minder gereduceerd dan bij lossy compressie.</li>
+</ul>
+<p><strong>Voorbeeld:</strong> PNG en GIF gebruiken lossless compressie.</p>
+
+<h2>Welke soorten compressie gebruiken JPEG, PNG en GIF?</h2>
+<ul>
+    <li><strong>JPEG</strong> gebruikt <strong>lossy compressie</strong>. Het verwijdert bepaalde beeldinformatie om een zeer kleine bestandsgrootte te bereiken. Dit maakt het ideaal voor foto's waar een kleine hoeveelheid kwaliteitsverlies vaak niet opvalt.</li>
+    <li><strong>PNG</strong> gebruikt <strong>lossless compressie</strong>. Het is geschikt voor afbeeldingen met scherpe randen, tekst, en afbeeldingen met transparantie, zoals logo's of grafieken, waar kwaliteit behouden moet blijven.</li>
+    <li><strong>GIF</strong> gebruikt eveneens <strong>lossless compressie</strong>, maar het ondersteunt slechts 256 kleuren, waardoor het beperkt is voor complexe afbeeldingen zoals foto's. Het is geschikt voor eenvoudige afbeeldingen zoals animaties, iconen en eenvoudige grafieken.</li>
+</ul>
+
+<h2>Wat gebeurt er als je een afbeelding herhaaldelijk bewerkt en bewaart in een lossy formaat?</h2>
+<p>Bij elke keer dat je een afbeelding in een <strong>lossy formaat</strong> zoals JPEG opnieuw opslaat, wordt de afbeelding opnieuw gecomprimeerd. Dit resulteert in een cumulatief kwaliteitsverlies. Het verlies van details stapelt zich op, wat zichtbaar kan worden als compressie-artefacten, zoals blokkerige structuren of wazige details. Dit is vergelijkbaar met het steeds maken van kopieën van een kopie, waarbij elke nieuwe versie steeds slechter wordt.</p>
+<p>Daarom is het bij herhaaldelijk bewerken van afbeeldingen aan te raden om te werken met een lossless formaat (zoals PNG of TIFF) en pas bij de laatste stap het bestand om te zetten naar een lossy formaat, als bestandsgrootte een rol speelt.</p>
+
+
+</body>
+</html>
