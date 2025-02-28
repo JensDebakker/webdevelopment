@@ -1,0 +1,12 @@
+button {
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 160px;
+}
+
+button.pressed {
+    background-color: cyan;
+}
