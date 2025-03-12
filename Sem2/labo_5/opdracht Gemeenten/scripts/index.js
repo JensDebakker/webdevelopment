@@ -7,11 +7,15 @@ const setup = () => {
     let whileTrue = true;
     while (whileTrue) {
         invoer = window.prompt("Voer een gemeente in (of typ 'stop' om te stoppen):");
+
         if (invoer === null || invoer.toLowerCase() === "stop") {
             whileTrue = false;
         }
-        if (invoer.trim() !== "") {
+        else{
+            if (invoer.trim() !== ""){
+
             gemeenten.push(invoer.trim());
+            }
         }
     }
 
