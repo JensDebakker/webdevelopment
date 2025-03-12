@@ -4,10 +4,11 @@ const setup = () => {
     let invoer;
 
 // Vraag de gebruiker om gemeenten in te voeren
-    while (true) {
+    let whileTrue = true;
+    while (whileTrue) {
         invoer = window.prompt("Voer een gemeente in (of typ 'stop' om te stoppen):");
         if (invoer === null || invoer.toLowerCase() === "stop") {
-            break;
+            whileTrue = false;
         }
         if (invoer.trim() !== "") {
             gemeenten.push(invoer.trim());
