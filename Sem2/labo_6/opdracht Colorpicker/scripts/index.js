@@ -78,6 +78,7 @@ const setup = () => {
 
         colorBox.removeChild(event.currentTarget);
         savedColors.removeChild(colorBox);
+        event.stopPropagation();
     }
 
 };
